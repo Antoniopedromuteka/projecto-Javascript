@@ -1,0 +1,330 @@
+ 
+ 
+
+
+ 
+
+ @import url('https://fonts.googleapis.com/css2? família= Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400 & display=swap');
+
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: none;
+     outline: none;
+ 
+ }
+ 
+ :root{
+ 
+     --border: 1px solid white; 
+     --border-radius: 3rem;
+     --color-white: rgba(255, 253, 253, 0.979);
+     --background:rgb(34, 84, 117);
+     --background-2:rgb(26, 61, 83);
+     --color-hover:rgb(26, 38, 58);
+     --background-gray: #EEF2F6; 
+ 
+ }
+ 
+body{
+    
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ul{
+  list-style-type: none;  
+}
+nav > ul div{width:24px; height: 24px; display: inline-block;}
+a{text-decoration: none; color:#fff }
+main{
+    display: flex;
+    
+    
+}
+
+.menu{
+    width: 28%;
+   height: 100vh;
+    border: 1px solid #ddd;
+    background:  var(--color-hover);
+    color: #fff;
+    
+     
+}
+ 
+
+ 
+.menu .logo{   
+    background:  var(--background-2);
+    width: 100%;
+    height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+    margin-bottom: 20px;
+}
+.menu > nav ul{
+    display: flex;
+    flex-direction: column;
+     
+    position: relative;
+    left: 40px;
+    top: 65px;
+    
+  
+}
+.menu>nav ul li div{
+    margin-right: 7px;
+    margin-top: 2px;
+}
+ 
+.menu>nav ul li{
+    
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+
+}
+
+.menu> nav ul li a{
+    font-weight: 100;
+}
+.menu>nav ul li:first-child{
+    
+}
+ 
+ 
+/*---------------------------*/
+
+.c1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+
+    width: 100%;
+    height: 42px;
+    background: rgb(255, 255, 255);
+}
+.conta_logada{
+    display: flex;
+    
+     
+    height: 70px;
+    width: 200px;
+}
+.conta_logada>p{
+    margin-top: 14px;
+    margin-left: 5px;
+    color:rgb(0, 13, 26);
+}
+.menu1{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.imagem_conta{
+    background-image: url(../imagem/WhatsApp\ Image\ 2021-09-11\ at\ 20.49.07.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.body{
+    background: rgb(159, 170, 180);
+    width: 100%;
+    
+    position: relative;
+    
+}
+
+.content2{
+    width: 98%;
+    margin: 0 auto;
+}
+ 
+/*+++++++++++++++++++++++++++*/
+ 
+/****************************/
+
+
+/**++++++++++++++++*/
+ 
+
+.content_body{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+     
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+  
+}
+.title>h1{color: #487794;}
+
+.content_body>div:first-child{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: rgb(245, 245, 245);
+    border-radius: 3px;
+
+    border-bottom: 1px solid #ddd;
+}
+.content_body>div>h1{
+    margin-left: 10px;
+    color:rgb(72, 70, 70);
+}
+.content_body>div>div{
+    margin-right: 10px;
+    
+}
+.content_body>div>div input{width: 100px; border-radius: 5px; border: 1px solid rgb(186, 185, 185); outline: none; padding: 2px; box-sizing: border-box;}
+.content_body>div>div a{margin-right: 10px; position: relative; top:2px}
+.content_body>div>div button{padding: 5px; width: 70px; border-radius: 0 5px; color:#fff; background: #487794; border:none}
+.content_body>div>div button:hover{width: 80px; transition: 0.7s; background: #0c92e6;}
+
+
+.ctn_body>ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.ctn_body>div{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ctn_body>div>h4{
+    color:rgba(26, 25, 25, 0.576);
+    font-size: 16px;
+    
+}
+
+
+
+@media screen and (max-width: 990px) {
+     
+    .menu{
+        display: none;
+    }
+    .blocos{
+         
+        
+    }
+    .pif> img{
+        width: 400px;
+    }
+ 
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .blc1{
+        width: 150px;
+        font-size: 0.8rem;
+    }
+    .blc2{
+        width: 150px; 
+        font-size: 0.8rem; 
+    }
+    .blc3{
+        width: 150px;
+        font-size: 0.8rem;
+    }
+    .blc4{
+        width: 150px;
+        font-size: 0.8rem;
+        
+    }
+    .bg1{width: 40px;}
+    .bg2{width: 40px;}
+    .bg3{width: 40px;}
+    .bg4{width: 40px;}
+    .pif> img{
+        width: 400px;
+    }
+
+  }
+
+  @media screen and (max-width: 690px) {
+    .blc1{
+        width: 130px;
+        font-size: 0.6rem;
+    }
+    .blc2{
+        width: 130px; 
+        font-size: 0.6rem; 
+    }
+    .blc3{
+        width: 130px;
+        font-size: 0.6rem;
+    }
+    .blc4{
+        width: 130px;
+        font-size: 0.6rem;
+        
+    }
+    .bg1{width: 40px;}
+    .bg2{width: 40px;}
+    .bg3{width: 40px;}
+    .bg4{width: 40px;}
+     
+     .infor2{
+         display: none;
+     }
+     .body{
+         height: 100vh;
+     }
+     .content_body{
+         height: 70vh;
+     }
+
+     .infor1{
+         position: relative;
+         top: -20px;
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+     }
+     .infor1 div h1{
+         position: relative;
+         left: -10px;
+     }
+     .pif> img{
+         width: 300px;
+     }
+  }
+
+
+
+
+  @media screen and (max-width: 600px) {
+     .blocos{
+         display: none;
+     }
+
+  }  

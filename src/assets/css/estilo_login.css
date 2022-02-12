@@ -1,0 +1,258 @@
+
+
+ 
+ @import url('https://fonts.googleapis.com/css2? família= Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400 & display=swap');
+
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: none;
+     outline: none;
+ 
+ }
+ 
+ :root{
+ 
+     --border: 1px solid white; 
+     --border-radius: 3rem;
+     --color-white: rgba(255, 253, 253, 0.979);
+     --background:rgb(34, 84, 117);
+     --background-2:rgb(26, 61, 83);
+     --color-hover:rgb(26, 38, 58);
+     --background-gray: #EEF2F6; 
+ 
+ }
+ 
+body{
+    
+     font-family: 'Poppins', sans-serif;
+     background: var(--background);
+ }
+
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+   
+  /* remove a linha dos links */
+  a{
+    text-decoration: none;
+  }
+   
+  /* esconde as ancoras da tela */
+  a.links{
+    display: none;
+}
+ 
+ 
+.content1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Assets/icons/work-4527578_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+
+}
+.header{
+      display: flex;
+      flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+
+      width: 100%;
+      height: 100vh;
+      
+   
+}
+.header>h1{
+      margin-top: 100px;
+      margin-bottom: 50px;
+      color: #fff;
+      font-size: 30px;
+ }
+.body_login{
+      width: 550px;
+      height: 350px;
+      background: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius:10px;
+  }
+
+.body_login-c{
+  width: 550px;
+  height: 450px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:10px;
+
+}  
+.body_login>h1{
+
+      margin-top: 20px;
+      margin-bottom: 5px;
+      position: relative;
+      top:15px;
+      color:rgb(51, 48, 48);
+
+}
+.body_login-c>h1{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  top:15px;
+  color:rgb(51, 48, 48);
+
+}
+ .Entrar-c{
+  
+   position: relative;
+   background: #496e85;
+   color:#fff;
+ }
+.login{
+       
+      display: flex;
+      width: 80%;
+      height: 300px;
+      align-items: center;
+      margin: 0 auto;
+      justify-content: space-between;
+}
+
+.conect{
+      width: 50%;
+      height: 200px;
+      background: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+     
+      font-size: 15px;
+}
+ 
+.conect>span{
+      margin-bottom: 20px;
+      color:rgb(95, 95, 95);
+}
+.conect>div{
+      margin-bottom: 20px;
+      border: 1px solid ;
+      padding: 5px;
+      border-radius:5px;
+}
+.conect>.c1{ color:rgb(255, 0, 0); display: flex;    }
+.conect>.c1>img{margin-left: 10px; margin-right: 4px;}
+.conect>.c1>span{margin-top: 5px;}
+.conect>.c2{ color:rgb(0, 0, 255); display: flex;   }
+.conect>.c2>span{margin-top: 5px;}
+.conect>.c2>img{margin-left: 10px; margin-right: 4px;}
+.conect>.c3{ color: rgb(0, 0, 0); display: flex;     }
+.conect>.c3>span{margin-top: 5px;}
+.conect>.c3>img{margin-left: 10px; margin-right: 4px;}
+
+/*****************/
+
+.formulario{
+    width: 45%;
+    height: 200px;
+    background: rgb(255, 255, 255);  
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    
+    
+  }
+  
+.formulario span{
+        margin-bottom: 20px;
+        color:rgb(100, 100, 100);
+}  
+form{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+form>input{
+    margin-bottom: 0px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: rgb(238, 234, 234);
+}
+form>.Entrar{
+    position: relative;
+    top:-20px;
+    background: #496e85;
+    color:#fff;
+    
+}
+.Entrar:hover{
+    background: #0d85d0;
+    transition: 2s;
+}
+
+.senha{
+    margin-left: 70px;
+}
+ 
+
+
+
+@media screen and (max-width:600px) {
+  
+    .conect{
+      display: none;
+    }
+    
+
+    .body_login{
+      width: 90%;
+     
+    }
+    .body_login-c{
+      width: 90%;
+    }
+    .body_login{
+      align-items: center;
+      justify-content: center; 
+    }
+
+    
+
+    .login{
+      width: 80vw;
+      height: 60vh;
+     
+      align-items: center;
+      justify-content: center;
+    }
+
+    
+
+    .header{
+      width: 100%;
+    }
+
+    .content1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .formulario{
+      width: 60%;
+    }
+
+}
